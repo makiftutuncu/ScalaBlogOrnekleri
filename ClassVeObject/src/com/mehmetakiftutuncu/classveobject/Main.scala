@@ -31,7 +31,7 @@ object Main {
     println(javaDunyasi2)
 
     val scalaDunyasi1 = ScalaDunyasi()
-    val scalaDunyasi2 = new ScalaDunyasi(2)
+    val scalaDunyasi2 = ScalaDunyasi(2)
 
     ScalaDunyasi.selam()
     println(scalaDunyasi1)

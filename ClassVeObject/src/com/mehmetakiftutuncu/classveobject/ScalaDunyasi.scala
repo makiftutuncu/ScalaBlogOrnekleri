@@ -14,6 +14,10 @@ object ScalaDunyasi {
     new ScalaDunyasi(1)
   }
 
+  def apply(surum: Int): ScalaDunyasi = {
+    new ScalaDunyasi(surum)
+  }
+
   def selam(): Unit = {
     println("Selam " + dunyaAdi + "!")
   }
