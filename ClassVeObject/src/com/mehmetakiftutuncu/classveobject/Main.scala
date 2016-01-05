@@ -20,5 +20,21 @@ object Main {
 
     JavaSingleton.getOrnek.selam()
     ScalaSingleton.selam()
+
+    println()
+
+    val javaDunyasi1  = new JavaDunyasi()
+    val javaDunyasi2  = new JavaDunyasi(8)
+
+    JavaDunyasi.selam()
+    println(javaDunyasi1)
+    println(javaDunyasi2)
+
+    val scalaDunyasi1 = ScalaDunyasi()
+    val scalaDunyasi2 = new ScalaDunyasi(2)
+
+    ScalaDunyasi.selam()
+    println(scalaDunyasi1)
+    println(scalaDunyasi2)
   }
 }
