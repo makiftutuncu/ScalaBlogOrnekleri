@@ -15,5 +15,10 @@ object Main {
 
     println("Java: " + new JavaSinifi2("Hasan", 20))
     println("Scala: " + new ScalaSinifi2("Hüseyin", 30))
+
+    println()
+
+    JavaSingleton.getOrnek.selam()
+    ScalaSingleton.selam()
   }
 }
