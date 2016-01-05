@@ -10,5 +10,10 @@ object Main {
 
     println("Java isim: " + java1.getIsim())
     println("Scala isim: " + scala1.getIsim)
+
+    println()
+
+    println("Java: " + new JavaSinifi2("Hasan", 20))
+    println("Scala: " + new ScalaSinifi2("Hüseyin", 30))
   }
 }
